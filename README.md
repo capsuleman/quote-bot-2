@@ -1,2 +1,2 @@
-# quote-bot-2
-Writting a new version of quote-bot with new functionalities
+# Quotebot v2
+New version of quote-bot with new functionalities (likes, handle multiples chans)
