@@ -3,3 +3,4 @@
 
 venv/
 quote.db
+config.py
