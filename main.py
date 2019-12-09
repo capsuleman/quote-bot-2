@@ -1,3 +1,5 @@
+#!./venv/bin/python3
+
 from dao import DAO
 dao = DAO()
 
