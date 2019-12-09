@@ -1,6 +1,12 @@
 #!./venv/bin/python3
 
 from dao import DAO
-dao = DAO()
+from bot import BotThread
+from config import token_bot, chat_id
 
-from bot import bot
+dao = DAO()
+botThread = BotThread(dao, token_bot, chat_id)
+
+botThread.start()
+
+print('running')
